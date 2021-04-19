@@ -4,12 +4,12 @@
   box-sizing: border-box;
 }
 body {
+  font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
   background-color: rgb(255, 255, 255);
 }
 .nav {
   display: flex;
   justify-content: flex-end;
-  border: 1px solid red;
   margin-top: 20px;
   margin-right: 20px;
 }
@@ -31,15 +31,17 @@ nav img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border: 1px solid red;
+
   margin-top: 20%;
 }
 #search {
   display: inline-block;
-  background: coral;
-  border-radius: 20px;
-  padding: 10px 50% 10px 20px;
+  border-radius:30px;
+  border: none;
+  padding: 15px 50% 15px 30px;
   outline: none;
+  box-shadow: 0 0 10px 5px rgb(228, 228, 228);
+  margin-top: 40px;
 }
 .container {
   margin: 0 auto;
@@ -50,9 +52,11 @@ nav img {
   right: 0px;
   bottom: 100px;
   outline: none;
-  border-radius: 10px;
-  border: 1px solid black;
-  margin: 0px 10px 0px 0px;
+  border-radius: 20px;
+  border: none;
+  margin: 0 10px 0 0;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px 5px rgb(228, 228, 228);
 }
 .btn a {
   color: blue;
